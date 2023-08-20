@@ -1,0 +1,149 @@
+.logo{
+    width: 70px;
+    height: 70px;
+    border-radius: 50%;
+    position:fixed;
+    left: 15px;
+    margin-top: -25px;
+}
+.head1{
+    padding-top: 30px;
+    padding-bottom: 30px;
+    margin-top: -11px;
+    background-color: white;
+}
+.titleh > p{
+    color:white;
+    width: 100%;
+    padding: 10px;
+    background-color: sienna;
+    font-size: 28px;
+    font-weight: 800;
+    font-weight: bold;
+    font-family: "Helvetica", Arial, sans-serif;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    text-align: center;
+    margin-top: -30px;
+    margin-left: -10px;
+}
+.ul-head{
+    list-style-type: none;
+    top: 3px;
+    margin-left: 500px;
+}
+.ul-head li{
+    display: inline-block;
+    
+    
+}
+.ul-head li a{
+    text-decoration: none;
+    color:black;
+    padding: 5px 20px;
+    transition: 0.6s ease;
+    font-family: monospace;
+    font-size: 16px;
+}
+.ul-head li.active a{
+    background-color:sienna;
+    color: rgb(255, 255, 255);
+    border-radius: 5px;
+
+}
+.ul-head li a:hover{
+    border-radius: 5px;
+    background-color:sienna ;
+    color: rgb(255, 255, 255);
+}
+.site-nav{
+    font-size: 1em;
+    font-family: "Optima nova", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    letter-spacing: 0.1em;
+    text-transform: uppercase;
+    cursor: default;
+    margin-left: 300px;
+}
+.site-nav li{
+    position: relative;
+    display: inline-block;
+    margin: 0;
+}
+.site-nav_link{
+    display: block;
+    text-decoration: none;
+    white-space: nowrap;
+    color: black;
+    font-weight: 400;
+    padding: 7px 20px 7px 15px;
+    /* background-color: burlywood; */
+    border-radius: 30px;
+}
+.site-nav a:hover{
+    background-color:white;
+    color:black;
+    border: 2px solid;
+    border-color:burlywood;
+}
+.collection-title{
+    font-size: 2em;
+    font-family: "Optima nova", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    letter-spacing: 0.1em;
+    text-transform: uppercase;
+    cursor: default;
+    margin-left: 230px;
+    margin-right: 300px;
+    color:black;
+    text-align: left;
+    border-radius: 30px;
+}
+.top-page{
+    width: 80%;
+    height: 300px;    
+    /* margin-top: 5px; */
+    margin-left: 10%;
+    display: flex;
+    margin-bottom: 10px;
+    
+}
+.section{
+    flex: 1;
+    width: 20%;
+    height: 332px;
+    margin-right: 2px;
+    margin-left: 2px;
+    background-color:white;
+}
+.product-img{
+    width: 211px;
+    height: 211px;
+    margin-left: 40px;
+}
+.brand-name{
+    text-align: center;
+    font-weight: 600;
+    font-style: normal;
+    text-transform: uppercase;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    margin-top: -2px;
+}
+.price{
+    text-align: center;
+    font-weight: 400px;
+    font-style: normal;
+    font-family: Arvo, serif;    margin-top: -2px;
+}
+.old-price{
+    color: #5b544f;
+}
+.foot p{
+    margin-bottom: -10px;
+    margin-left: -8px;
+    color: sienna;
+    padding: 20px 0px 20px 18px;
+    width: 100%;
+}
